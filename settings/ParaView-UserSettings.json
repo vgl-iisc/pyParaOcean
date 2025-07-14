@@ -1,0 +1,21 @@
+{
+	
+	"representations" : 
+	{
+		"ParallelCoordinatesRepresentation" : 
+		{
+			"Color" : 
+			[
+				0.33333333333333331,
+				0.33333333333333331,
+				1.0
+			]
+		},
+		"GeometryRepresentation" : 
+		{
+		"RenderLinesAsTubes" : 1,
+		"LineWidth" : 5.0
+		
+		}
+	}
+}

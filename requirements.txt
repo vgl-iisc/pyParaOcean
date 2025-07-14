@@ -1,0 +1,6 @@
+vtk
+numpy
+scipy
+networkx
+netCDF4
+tqdm

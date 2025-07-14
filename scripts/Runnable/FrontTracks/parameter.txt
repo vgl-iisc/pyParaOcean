@@ -1,0 +1,17 @@
+
+v_limit = 63
+lt_origin = 5
+ln_origin = 75
+lt_clip = 6
+ln_clip = 80
+TrackGraph input =/home/toshit/Downloads/BoB_STUV.nc
+TrackGraph_output = alltracks_clipped
+d_max = 200
+resolution = 1.0/12.0
+neighborhood = 70
+interpolation = 1
+v_name = so
+depth_name = depth
+set_bound_lon = 84,88
+set_bound_lat = 14,19
+paths = 5
