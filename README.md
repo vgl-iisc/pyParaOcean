@@ -1,7 +1,7 @@
 # pyParaOcean : A Paraview Plugin for Ocean Data Visualization
 
 pyParaOcean provides a dashboard for visualizing ocean data.
-The system is available as a plugin to [ParaView](https://https://paraview.org/) and is hence able to leverage its distributed computing capabilities and its rich set of generic analysis and visualization functionalities. pyParaOcean provides modules to support different visual analysis tasks specific to ocean data, such as eddy identification and salinity movement tracking. These modules are available as Paraview filters and the seamless integration results in a system that is easy to install and use.
+The system is available as a plugin to [ParaView](https://paraview.org/) and is hence able to leverage its distributed computing capabilities and its rich set of generic analysis and visualization functionalities. pyParaOcean provides modules to support different visual analysis tasks specific to ocean data, such as eddy identification and salinity movement tracking. These modules are available as Paraview filters and the seamless integration results in a system that is easy to install and use.
 
 
 ## Installation:
