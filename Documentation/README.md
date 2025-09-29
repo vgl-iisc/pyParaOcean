@@ -104,7 +104,7 @@
 | ![Alt](./img/Scalar_Field_Profile.png) |
 | *Picture H - Scalar Field Profile* |
 
-  - Scalar Field Profile helps user to visualize changes in a particular scalar filed of an interval of depth for an entire time duration.
+  - Scalar Field Profile helps user to visualize changes in a particular scalar field over an interval of depth for an entire time duration.
   - It's a 2D Scatterplot where x-axis shows Time and y-axis shows depth.
   - To apply Scalar Field Profile filter:
     - Select Dataset in Pipeline Browser
