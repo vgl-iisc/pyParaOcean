@@ -2,6 +2,7 @@
   - pyParaOcean is a set of filters built on top of Paraview to leverage its parallel computation capability.
   - To add pyParaOcean filters:
     - Tools -> Manage Plugins -> Load New -> pyParaOcean.py
+    - Macros -> Import new macro... -> macro_file.py from macros folder
     - Afterwards, filters will be available from: Filters -> pyParaOcean Filters
 
 
@@ -26,10 +27,10 @@
     - Click Apply
     - Also apply macro named ‘DepthProfileRenderer’ from Top-Right side
   - Note on Setting Parameters:
-    - Users need to provide proper parameter values otherwise the filter may not work.
+    - User need to provide proper parameter values otherwise the filter may not work.
     - As shown in Picture B, users need to provide values of: Depth Dimension, Latitude Dimension and Longitude Dimension. These values can be obtained by selecting the dataset and looking for the ‘Extents’ section in the information tab as shown in Picture C.
     - Also, users need to provide which location to look for by providing Longitude and Latitude values. Users need to provide starting and ending depth values to probe the dataset as shown in Picture - B.
-    - Users need to provide the name of the Salinity variable which is ‘so’ in this case. Dataset generally has the name of all variables.
+    - User need to provide the name of the Salinity variable which is ‘so’ in this case. Dataset generally has the name of all variables.
 
 | &nbsp; |
 |:--------------:|
@@ -52,7 +53,7 @@
 
   - To understand the behavior of particles over time, strategies like Streamlines and Pathlines are used.
   - Seeding plays a crucial role for those. For Streamlines and Pathlines, pyParaOcean provides different seeding strategies as shown in Picture - E.
-  - Users also need to set different parameters before applying this filter.
+  - User also need to set different parameters before applying this filter.
   - To apply Streamlines filter:
     - Select Dataset in Pipeline Browser
     - Go to: Filters -> pyParaOcean Filter -> Streamlines
@@ -60,10 +61,10 @@
     - Click Apply
     - Also apply a macro named ‘StreamlinesRenderer’ from Top-Right side.
   - Note on Setting Parameters:
-    - Users need to provide proper parameter values otherwise the filter may not work.
+    - User need to provide proper parameter values otherwise the filter may not work.
     - As shown in Picture F, users need to provide values of: Number of Seeds, Salinity Variable Name, Seeding Strategy and Flow Vector Components.
-    - Users need to provide the name of the Salinity variable which is ‘so’ in this case. Dataset generally has the name of all variables.
-    - Users also need to provide the variable name of Horizontal Velocity which here is ‘uo’ and Vertical Velocity which is ‘vo’. Dataset generally has the name of all variables. Using these variables, this filter will be able to create a Flow Field and using it, filter will create Streamlines.
+    - User need to provide the name of the Salinity variable which is ‘so’ in this case. Dataset generally has the name of all variables.
+    - User also need to provide the variable name of Horizontal Velocity which here is ‘uo’ and Vertical Velocity which is ‘vo’. Dataset generally has the name of all variables. Using these variables, this filter will be able to create a Flow Field and using it, filter will create Streamlines.
 
 | &nbsp; |
 |:--------------:|
@@ -92,6 +93,24 @@
     - Click Apply
     - Also apply macro named ‘PathlinesRenderer’ from Top-Right side
   - User may need to click on the next time step button below the menu bar.
-  - Users need to provide proper parameter values otherwise the filter may not work.
+  - User need to provide proper parameter values otherwise the filter may not work.
 
+---
+
+## Scalar Field Profile:
+
+| &nbsp; |
+|:--------------:|
+| ![Alt](./img/Scalar_Field_Profile.png) |
+| *Picture H - Scalar Field Profile* |
+
+  - Scalar Field Profile helps user to visualize changes in a particular scalar filed of an interval of depth for an entire time duration.
+  - It's a 2D Scatterplot where x-axis shows Time and y-axis shows depth.
+  - To apply Scalar Field Profile filter:
+    - Select Dataset in Pipeline Browser
+    - Go to: Filters -> pyParaOcean Filter -> Scalar Field Profile
+    - Set Parameters in the Properties section
+    - Click Apply
+    - Also apply macro named ‘ScalarFieldProfileRenderer’ from Top-Right side
+  - User need to provide proper parameter values otherwise the filter may not work.
 ---
