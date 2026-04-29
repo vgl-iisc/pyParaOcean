@@ -19,7 +19,7 @@ The system is available as a plugin to [ParaView](https://paraview.org/) and is 
 InteractiveFrontPath needs to run in the server since it requires parallel computation. If the plugin is loaded in server, then run MakeFile.sh again.
 
 
-> Prerequisites: python3, pip3
+> Prerequisites: python3, pip3, Python Packages: vtk, numpy, scipy, networkx, netCDF4, tqdm
 
 > Tested on Paraview v5.11.0
 
