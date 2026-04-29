@@ -14,7 +14,7 @@ The system is available as a plugin to [ParaView](https://paraview.org/) and is 
 
 2. Go to Macros > Import New Macro
 
-3. Navigate to macros directory and select appropriate macro based on which filter to use. For more information, see Documention directory.
+3. Navigate to macros directory and select appropriate macro based on which filter to use. For more information, see Documentation directory.
 
 InteractiveFrontPath needs to run in the server since it requires parallel computation. If the plugin is loaded in server, then run MakeFile.sh again.
 
