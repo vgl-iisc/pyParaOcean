@@ -6,13 +6,15 @@ The system is available as a plugin to [ParaView](https://paraview.org/) and is 
 
 ## Installation:
 
-1. Navigate to this directory
-
-1. Run ```$bash MakeFile.sh```
+1. Clone the Repository
 
 1. Open Paraview, go to Tools > Manage Plugins > Load New
 
 1. Navigate to this directory and select pyParaOcean.py
+
+2. Go to Macros > Import New Macro
+
+3. Navigate to macros directory and select appropriate macro
 
 InteractiveFrontPath needs to run in the server since it requires parallel computation. If the plugin is loaded in server, then run MakeFile.sh again.
 
