@@ -8,7 +8,7 @@ The system is available as a plugin to [ParaView](https://paraview.org/) and is 
 
 1. Clone the Repository
 
-2. Run Makefile.sh
+2. Run MakeFile.sh
 
 1. Open Paraview, go to Tools > Manage Plugins > Load New
 
