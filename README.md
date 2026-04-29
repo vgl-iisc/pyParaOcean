@@ -8,6 +8,8 @@ The system is available as a plugin to [ParaView](https://paraview.org/) and is 
 
 1. Clone the Repository
 
+2. Run Makefile.sh
+
 1. Open Paraview, go to Tools > Manage Plugins > Load New
 
 1. Navigate to this directory and select pyParaOcean.py
