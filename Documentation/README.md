@@ -114,3 +114,22 @@
     - Also apply macro named ‘ScalarFieldProfileRenderer’ from Top-Right side
   - User need to provide proper parameter values otherwise the filter may not work.
 ---
+
+
+## Turner Angle:
+
+| &nbsp; |
+|:--------------:|
+| ![Alt](./img/Turner_Angle.png) |
+| *Picture I - Turner Angle* |
+
+  - Turner Angle filter helps user to visualize what kind of mixing is happening in the ocean.
+  - It's calculated between two depthts of the ocean.
+  - To apply Scalar Field Profile filter:
+    - Select Dataset in Pipeline Browser
+    - Go to: Filters -> pyParaOcean Filter -> Scalar Field Profile
+    - Set Parameters in the Properties section. User need to install 'gsw' python library and also need to provide path of installed library.
+    - Filter converts Salinity to Absolute Salinity and Potential Temperature theta to Conservative temperature using pressure values based on depth and latittude. 
+    - Click Apply
+  - User need to provide proper parameter values otherwise the filter may not work.
+---
