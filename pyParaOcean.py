@@ -25,3 +25,4 @@ from filters.SeedPlacement import *
 from filters.Streamlines import *
 from filters.Pathlines import *
 from filters.ScalarFieldAnalysis import *
+from filters.TurnerAngle import *
