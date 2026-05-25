@@ -22,7 +22,7 @@ import time
     </Hints>
 """)
 
-class DepthProfile(VTKPythonAlgorithmBase):
+class TurnerAngle(VTKPythonAlgorithmBase):
     def __init__(self):
         super().__init__(nInputPorts = 1, nOutputPorts = 2)
 
